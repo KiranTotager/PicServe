@@ -25,7 +25,7 @@ async def close_db_pool():
 @asynccontextmanager
 async def get_db_conn():
     async with mysql_pool.acquire() as conn:
-        async with conn.cursor() as cursor:
+        async with conn.cursor(aiomysql.DictCursor) as cursor:
             yield cursor
 
 
