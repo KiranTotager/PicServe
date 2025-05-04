@@ -2,9 +2,9 @@ from http.client import HTTPException
 
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
+from starlette.responses import JSONResponse
 
-
-SENDGRID_API_KEY="TTXSMK37C2N3NBPRNXFHU7LK"
+SENDGRID_API_KEY="here you have to mention our api key"
 FROM_EMAIL="tskiran5114@gmail.com"
 
 async def send_reset_email(to_email:str,reset_link:str):
@@ -23,8 +23,16 @@ async def send_reset_email(to_email:str,reset_link:str):
     try:
         sg=SendGridAPIClient(api_key=SENDGRID_API_KEY)
         response=sg.send(message=message)
-        return response
+        if response.status_code == 202:
+            print("success")
+            return True
+        else:
+            print("error")
+            return False
+
         # return response.status_code
     except Exception as e:
-        return e
+        print(f"error{e}")
+        return False
+
 
