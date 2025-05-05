@@ -1,4 +1,3 @@
-from aiofiles.os import replace
 from fastapi import FastAPI
 from starlette.staticfiles import StaticFiles
 
@@ -9,7 +8,7 @@ from photosHandling import delete_expired_photos
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.interval import IntervalTrigger
-import  asyncio
+
 scheduler=AsyncIOScheduler()
 
 

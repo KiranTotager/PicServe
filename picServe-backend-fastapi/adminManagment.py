@@ -185,7 +185,7 @@ async def getUser(id:int):
 @router.post("/login")
 async def userLogin(payload:login):
     #admin login functionality
-    async with get_db_conn() as cursor:
+    async with get_db_conn() as (cursor,conn):
         await cursor.execute("select * from photographers where name=%s",(payload.name,))
         user=await cursor.fetchone()
         if user is None:

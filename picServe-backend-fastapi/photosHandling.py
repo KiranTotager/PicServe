@@ -43,7 +43,7 @@ async def uploadPhotos(files:List[UploadFile]=File(...),currentUser:dict=Depends
                 async with aiofiles.open(file_path, 'wb') as out_file:
                     content = await file.read()
                     await out_file.write(content)
-                    expires_at=datetime.datetime.utcnow()+datetime.timedelta(seconds=30)
+                    expires_at=datetime.datetime.utcnow()+datetime.timedelta(hours=24)
                     relativeUrl=f"{userName}/{filename}"
                     insert_query="INSERT INTO photos (photographer_id,url,uploaded_at,expires_at,likes_count) VALUES(%s,%s,%s,%s,%s)"
                     await cursor.execute(insert_query,(photographerId,relativeUrl,datetime.datetime.now(),expires_at,0))

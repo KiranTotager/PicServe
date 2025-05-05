@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e42ea1d6-c89e-4f3a-b685-6d115a5bfa50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailHandling.py" beforeDir="false" afterPath="$PROJECT_DIR$/mailHandling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityConfiguration.py" beforeDir="false" afterPath="$PROJECT_DIR$/picServe-backend-fastapi/SecurityConfiguration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminManagment.py" beforeDir="false" afterPath="$PROJECT_DIR$/picServe-backend-fastapi/adminManagment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/picServe-backend-fastapi/dbconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailHandling.py" beforeDir="false" afterPath="$PROJECT_DIR$/picServe-backend-fastapi/mailHandling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/picServe-backend-fastapi/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photosHandling.py" beforeDir="false" afterPath="$PROJECT_DIR$/picServe-backend-fastapi/photosHandling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +58,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/picServe-backend-fastapi" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
