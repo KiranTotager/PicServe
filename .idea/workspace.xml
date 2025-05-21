@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e42ea1d6-c89e-4f3a-b685-6d115a5bfa50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picServe-backend-fastapi/adminManagment.py" beforeDir="false" afterPath="$PROJECT_DIR$/picServe-backend-fastapi/adminManagment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picServe-backend-fastapi/mailHandling.py" beforeDir="false" afterPath="$PROJECT_DIR$/picServe-backend-fastapi/mailHandling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picServe-frontend-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/picServe-frontend-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picServe-frontend-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/picServe-frontend-react/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picServe-frontend-react/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/picServe-frontend-react/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
