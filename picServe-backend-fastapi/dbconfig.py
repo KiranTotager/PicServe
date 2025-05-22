@@ -29,9 +29,3 @@ async def get_db_conn():
             yield cursor,conn
 
 
-# @asynccontextmanager
-# async def get_db_conn_store():
-#     async with mysql_pool.acquire() as conn:
-#         async with conn.cursor() as cursor:
-#             yield cursor
-
